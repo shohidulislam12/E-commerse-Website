@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en " theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-comerce</title>
+    <!-- daisi ui cdn  -->
+     
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- font  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!-- font asweme  -->
+<script src="https://kit.fontawesome.com/9cccb8ef2e.js" crossorigin="anonymous"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+                        primary: 'rgb(139, 195, 74)',
+                        secondary: 'rgb(17, 17, 17)',
+                        body: 'rgb(248, 246, 243)',
+                        accent: 'rgb(106, 151, 57)',
+                        body_neutral: 'rgb(51, 51, 51)',
+                    },
+          fontFamily: {
+        
+  poppins: 'Poppins', 
+
+},
+backgroundImage: {
+                        leaf: "url('./images/leaf01.png')",
+                        call_to_action: "url('./images/call.jpg')",
+                    },
+
+               
+          }
+        }
+      }
+  </script>
+</head>
+<body class="max-w-screen-2xl  mx-auto" >
+    <nav class="lg:px-10 p-2">
+        <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              
+              <a href="#"> <img class="w-36 h-15" src="images/logo.svg" alt=""></a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li class="hover:text-lime-500 transition-colors duration-300 ease-in-out font-bold "><a>Home </a></li>
+                <li class="hover:text-lime-500 transition-colors duration-300 ease-in-out font-bold "><a>Everithing </a></li>
+                <li class="hover:text-lime-500 transition-colors duration-300 ease-in-out font-bold "><a>Groceries </a></li>
+                <li class="hover:text-lime-500 transition-colors duration-300 ease-in-out font-bold "><a>About </a></li>
+                <li class="hover:text-lime-500 transition-colors duration-300 ease-in-out font-bold "><a>contact </a></li>
+
+              </ul>
+            </div>
+            <div class="navbar-end space-x-3 ">
+                <span class="text-primary font-bold text-xl ">$10.00</span>
+                <a href="#"><i class="fa-solid fa-cart-shopping text-primary text-xl"></i></a>
+                <a href="#"><i class="fa-solid fa-user"></i></a>
+              
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost bg-green-500 lg:hidden">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 right-0 gap-5 shadow">
+                      <li class="hover:text-lime-500 transition-colors duration-300 ease-in-out font-bold "><a>Home </a></li>
+                      <li class="hover:text-lime-500 transition-colors duration-300 ease-in-out font-bold "><a>Everithing </a></li>
+                      <li class="hover:text-lime-500 transition-colors duration-300 ease-in-out font-bold "><a>Groceries </a></li>
+                      <li class="hover:text-lime-500 transition-colors duration-300 ease-in-out font-bold "><a>About </a></li>
+                      <li class="hover:text-lime-500 transition-colors duration-300 ease-in-out font-bold "><a>contact </a></li>
+      
+                    </ul>
+                  </div>           
+            </div>
+          </div>
+    </nav>
+
+    <header class="bg-[url('images/leaf01.png')] bg-no-repeat bg-right-bottom  ">
+<div class="h-auto w-full bg-body items-center bg-opacity-90 grid sm:grid-cols-2 grid-cols-1 rounded-lg ">
+
+<div class="p-10 ">
+
+    <img src="images/bannerbg.png" alt="">
+</div>
+
+<div class="space-y-7 sm:p-10 lg:px-15">
+    <h2 class="text-black text-2xl font-bold">Best Quality Products</h2>
+    <h1 class="text-black text-5xl font-extrabold">Join The Organic Movement!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+    <button class="btn hover:bg-lime-500 bg-lime-700 text-white px-5"><i class="fa-solid fa-cart-shopping text-xl"></i> Shop Now</button>
+</div>
+
+</div>
+
+    </header>
+<!-- section-1 -->
+<section class="bg-black p-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+<div class="bg-[#44403c] p-10 text-white flex items-center">
+    <i class="fa-solid fa-van-shuttle"></i>
+    <span><h2  class="text-2xl font-bold">free shipping</h2>
+        <h3>Above $5 Only</h3</span>>
+</div>
+
+
+
+</section>
+
+  
+</body>
+</html>
